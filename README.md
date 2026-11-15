@@ -1,16 +1,18 @@
-# 小鱼 · v2.0.0 朋友试用版
+# 小鱼 · v2.0.1 朋友试用版
 
 Windows 64位、本机运行的桌面陪伴软件。软件免费，聊天使用你自己的 DeepSeek 官方 API，调用费用由你自行承担。
 
 ## 下载与安装
 
-**正在准备 v2.0.1 修订版。** v2.0.0 已发现安装下载未正确采用 Windows 系统代理的问题，在部分网络下会连接超时。建议暂等修订版完成下载安装验收后再安装；自动更新通道尚未开放。以下 v2.0.0 固定附件保留供核验。
+当前已验证公开安装器与签名清单，完整程序下载安装仍在最后复验中；应用内更新入口尚未开放。复验结果会更新到本页。
 
-下载 [小鱼 v2.0.0 安装器 ZIP](https://github.com/Ezio927/xiaoyu-releases/releases/download/v2.0.0/Xiaoyu-Setup-2.0.0-win-x64.zip)，完整解压后双击“小鱼安装器.exe”。
+下载 [小鱼 v2.0.1 安装器 ZIP](https://github.com/Ezio927/xiaoyu-releases/releases/download/v2.0.1/Xiaoyu-Setup-2.0.1-win-x64.zip)，完整解压后双击“小鱼安装器.exe”。
 
 安装器约147 MiB，自带运行环境，不需要另装 Node 或 Python。它会下载并校验约7 GB程序；建议至少预留24 GB下载和安装空间。语音组件按需独立下载。不要手动拼接 `bundle-*.bin`，也不要在安装器里填写密钥或账号。
 
-[本版说明与已知限制](https://github.com/Ezio927/xiaoyu-releases/releases/tag/v2.0.0)
+[本版说明与已知限制](https://github.com/Ezio927/xiaoyu-releases/releases/tag/v2.0.1)
+
+v2.0.1 修复了安装与更新下载未采用 Windows 系统代理的问题。无需修改系统代理设置；下载仍逐步校验跳转、签名及文件内容。网络中断可重试，不保证所有网络环境都能连接。该修复不代表 DeepSeek API 的连接超时也一并解决。
 
 ## 使用与资料
 
